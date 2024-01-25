@@ -5,23 +5,102 @@ format: html
 editor: visual
 ---
 
-## Quarto
+Mathematics -- Grade 10
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Quarter 4 -- Module 1: Illustrating the following Measures of Position for Ungrouped Data
 
-## Running Code
+**LEARNING COMPETENCY:**
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+**OBJECTIVES:**
 
-```{r}
-1 + 1
-```
+**K**: Define the measures of position: quartiles, deciles, and percentiles.
 
-You can add options to executable code like this
+**S** : Illustrate quartiles, deciles, and percentiles.
 
-```{r}
-#| echo: false
-2 * 2
-```
+:   Calculate specified measure of position for ungrouped data.
 
-The `echo: false` option disables the printing of code (only output is displayed).
+**A**: Perform the given task with accuracy.
+
+LESSON 1
+
+Illustrating the Following Measures of Position: Quartiles, Deciles and Percentiles
+
+## The Quartile for Ungrouped Data
+
+The quartiles are the score points which divide a distribution into four equal parts. Twenty-five percent (25%) of the distribution are below the first quartile, fifty percent (50%) are below the second quartile, and seventy-five percent (75%) are below the third quartile. *Q*~1~ is called the lower quartile and
+
+*Q*3 is the upper quartile. *Q*1 \< *Q*2 \<*Q*3 , where *Q*2 is nothing but the median.
+
+The difference between *Q*~3~ and*Q*~1~ is the **interquartile range**.
+
+Since the second quartile is equal to the median, the steps in the computation of median by identifying the median class is the same as the steps in identifying the *Q*~1~ class and the *Q*~3~ class.
+
+*Example 1.*
+
+The owner of a coffee shop recorded the number of customers who came into his café each hour in a day. The results were 14, 10, 12, 9, 17, 5,
+
+8, 9, 14, 10, and 11. Find the lower quartile and upper quartile of the data.
+
+*Solution:*
+
+-   In ascending order, the data are
+
+5, 8, 9, 9, 10, 10, 11, 12, 14, 14, 17
+
+-   The least value in the data is 5 and the greatest value in the data is 17.
+
+-   The middle value in the data is 10.
+
+-   The lower quartile is the value that is between the middle value and the least value in the data set.
+
+-   So, the lower quartile is 9.
+
+-   The upper quartile is the value that is between the middle value and the greatest value in the data set.
+
+-   So, the upper quartile is 14.
+
+## The Deciles for Ungrouped Data
+
+The deciles are the nine score points which divide a distribution into ten equal parts. They are deciles and are denoted as *D*~1~, *D*~2~, *D*~3~,..., *D*~9~. They are computed in the same way that the quartiles are calculated.
+
+Example:
+
+Find the 3rd decile or *D*~3~ of the following test scores of a random sample of ten students:
+
+35 , 42 , 40 , 28 , 15 , 23 , 33 , 20 , 18 and 28.
+
+Solution:
+
+First, arrange the scores in ascending order.
+
+15 18 20 23 28 28 33 35 40 42
+
+Steps to find decile value on a data with *n* elements:
+
+To find its *D*~3~ position, use the formula
+
+𝑃𝑜𝑠𝑖𝑡𝑖𝑜𝑛 𝑜𝑓 𝐷𝑖 =𝑖/10 (𝑛 + 1)
+
+and round UP to the nearest integer. Finally, find the value that corresponds to the
+
+**The Percentiles for Ungrouped Data**
+
+The median divides the data set into two equal parts. Quartiles divide the data set into four equal parts. Deciles divide the data set into ten equal parts. Percentiles, on the other hand, divide the data set into one hundred equal parts.
+
+If the data are arranged in ascending order, 𝑃1 would mean that 1% of the data lie below it.
+
+Percentiles are computed in the same way as the quartiles and the deciles. First, we arrange the data set in ascending order. Next, locate the position of the percentiles in the data set. To do this, we use the following formula:
+
+𝑃𝑜𝑠𝑖𝑡𝑖𝑜𝑛 𝑜𝑓 𝑃𝑖 =𝑖/100 (𝑛 + 1)
+
+and round UP to the nearest integer. Finally, find the value that corresponds to the calculated position.
+
+**Why are Measures of Position Important?**
+
+These measures empower us to:
+
+-   **Compare data sets:** Imagine two classes' math scores. By comparing medians and quartiles, we can see which class generally scored higher and how spread out their scores were.
+
+-   **Identify outliers:** Extreme values that stand far from the pack can be easily spotted using measures like percentiles.
+
+-   **Describe data shape:** Are your data points huddled around the center, or scattered widely? Measures of position like quartiles and percentiles help paint a picture of your data's distribution.

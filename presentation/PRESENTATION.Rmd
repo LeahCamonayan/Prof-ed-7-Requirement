@@ -1,0 +1,74 @@
+---
+title: "MEASURES OF POSITION FOR UNGROUPED DATA"
+output: powerpoint_presentation
+date: "2024-01-05"
+format : presentation 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## MEASURES OF POSITION FOR UNGROUPED DATA
+
+# What is Measures of Position?
+
+-   Numerical values that describe the location of data points within a set.
+
+-   Help us understand how individual data points relate to the rest of the data.
+
+# Why is it important?
+
+-   Provide insights into the distribution of data.
+
+-   Allow for comparisons between different datasets.
+
+-   Enhance data analysis and interpretation.
+
+# QUARTILES
+
+-   Divide the data set into four equal parts.
+
+-   Q1 (First quartile): 25% of the data points fall below this value.
+
+-   Q2 (Second quartile) or Median: 50% of the data points fall below this value, marking the middle of the data set.
+
+# DECILES
+
+-   Divide the data set into ten equal parts
+
+-   D1 (First decile): 10% of the data points fall below this value.
+
+-   D5 (Fifth decile): 50% of the data points fall below this value.
+
+# PERCENTILES
+
+-   Divide the data set into 100 equal parts.
+
+-   P25: 25% of the data points fall below this value.
+
+-   P50: 50% of the data points fall below this value (same as the median).
+
+# APPLICATIONS 
+
+### [**Analyzing exam scores**]{.underline}
+
+Identifying the percentage of students below or above certain benchmarks.
+
+[**Comparing income levels**]{.underline}
+
+Determining the median income and decile ranges within a population.
+
+[**Studying environmental data**]{.underline}
+
+Tracking changes in air quality percentiles over time.
+
+# CONCLUSION
+
+-   Measures of position are valuable tools for understanding data distribution.
+
+-   By calculating quartiles, deciles, and percentiles, we gain insights into where data points lie within a set.
+
+-   These insights can inform decision-making, research, and data-driven storytelling.
+
+### THANK YOU!
