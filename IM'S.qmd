@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "MEASURES OF POSITION FOR UNGROUPED DATA"
 author: "Leah Camonayan"
 format: html
 editor: visual
